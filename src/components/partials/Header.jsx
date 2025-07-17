@@ -13,7 +13,7 @@ const Header = () => {
               </h3>
             </div>
             <div className="flex gap-5 items-center font-bold ">
-              <a href="#" className="text-amber-800/60 hover:underline">
+              <a href="#About" className="text-amber-800/60 hover:underline">
                 ABOUT
               </a>
               <a href="#" className="text-amber-800/60 hover:underline">

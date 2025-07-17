@@ -1,10 +1,16 @@
 import React from 'react'
 import { AiOutlineFileDone } from 'react-icons/ai';
 import { CiCoffeeCup } from 'react-icons/ci';
-import { FaArrowDown, FaCoffee, FaInstagram, FaPills } from 'react-icons/fa';
+import { FaArrowDown, FaCoffee, FaInstagram, FaMusic, FaPills, FaRegClock } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { SiMinutemailer } from 'react-icons/si';
 import { TiSocialFacebook } from 'react-icons/ti';
+import { VscDebug } from 'react-icons/vsc';
+import CardAccomplish from '../../../partials/CardAccomplish';
+import { FaBugs } from 'react-icons/fa6';
+import { LiaBugSolid } from 'react-icons/lia';
+import { IoMdMusicalNotes } from 'react-icons/io';
+import { GoClock } from 'react-icons/go';
 
 const Banner = () => {
   return (
@@ -34,45 +40,44 @@ const Banner = () => {
                 </span>
               </h2>
               <p className="text-gray-600">Computer Science Student</p>
-              <button className=" border-amber-800/10 rounded-full py-2 px-6 inline-block mt-5 font-bold text-gray-700 hover:bg-amber-800/30 shadow-xl">
+              <a href="#About" className=" border-amber-800/10 rounded-full py-2 px-6 inline-block mt-5 font-bold text-gray-700 hover:bg-amber-800/30 shadow-xl">
                 About Me
-              </button>
-              <button className="  border-amber-800/10 rounded-full py-2 px-6 inline-block mt-5 font-bold text-gray-700 ml-5 hover:bg-amber-800/30 shadow-xl">
+              </a>
+              <a className="  border-amber-800/10 rounded-full py-2 px-6 inline-block mt-5 font-bold text-gray-700 ml-5 hover:bg-amber-800/30 shadow-xl">
                 Contact Me
-              </button>
+              </a>
             </div>
             <div className="hover:bg-amber-800/30 p-3 rounded-full text-gray-700 shadow-xl">
               <FaArrowDown />
             </div>
           </div>
-          <div className="bg-white mt-10 py-3 px-10 flex text-gray-700 text-3xl gap-14 justify-items-center">
-            <div className="flex gap-3">
-              <div className="bg-amber-800/50 rounded-full h-fit p-3 mt-2">
-                <AiOutlineFileDone/>
-              </div>
-              <div>
-                <h2 className="text-amber-800 text-3xl font-bold">15</h2>
-                <p className="text-lg">Projects Complete</p>
-              </div>
-            </div>
-            <div className="flex gap-5">
-              <div className="bg-amber-800/50 rounded-full h-fit p-3 mt-2">
-                <CiCoffeeCup/>
-              </div>
-              <div>
-                <h2 className="text-amber-800 text-3xl font-bold">200</h2>
-                <p className="text-lg">Cups of Coffee</p>
-              </div>
-            </div>
-            <div className="flex gap-5">
-              <div className="bg-amber-800/50 rounded-full h-fit p-3 mt-2">
-                <FaPills/>
-              </div>
-              <div>
-                <h2 className="text-amber-800 text-3xl font-bold">40</h2>
-                <p className="text-lg">Medicine</p>
-              </div>
-            </div>
+          <div className="bg-white mt-14 py-5 px-10 ml-16 flex text-gray-700 text-3xl gap-14 justify-items-center w-fit">
+            <CardAccomplish
+              icon={AiOutlineFileDone}
+              number={"15"}
+              accomplishment={"Project Complete"}
+            />
+            <CardAccomplish
+              icon={CiCoffeeCup}
+              number={"200"}
+              accomplishment={"Cups of Coffee"}
+            />
+            <CardAccomplish
+              icon={IoMdMusicalNotes}
+              number={"500"}
+              accomplishment={"Code w/ Music"}
+            />
+            <CardAccomplish
+              icon={LiaBugSolid}
+              number={"52"}
+              accomplishment={"Bugs Fixed"}
+            />
+            <CardAccomplish
+              icon={GoClock}
+              number={"140"}
+              accomplishment={"Hours Coded"}
+            />
+
           </div>
         </div>
       </section>
