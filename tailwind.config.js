@@ -2,10 +2,17 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontFamily:{
+    fontFamily: {
       sans: ["WinkySans", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#374151",
+        secondary: "#fffbeb",
+        tertiary:"#92400e",
+        dashboard: "#2B2B2B",
+      },
+    },
   },
   plugins: [],
 };
