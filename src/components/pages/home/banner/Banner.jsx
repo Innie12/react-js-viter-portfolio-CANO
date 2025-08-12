@@ -32,11 +32,11 @@ const Banner = () => {
                 alt="Picture of me Smiling"
               />
             </div>
-            <div className="flex flex-wrap text-2xl gap-5 mb-5 text-amber-800">
-              <TiSocialFacebook className="shadow-lg" />
-              <SiMinutemailer className="shadow-lg" />
-              <MdEmail className="shadow-lg" />
-              <FaInstagram className="shadow-lg" />
+            <div className="flex flex-wrap text-2xl gap-5 mb-5 text-amber-800 cursor-pointer">
+              <TiSocialFacebook className="shadow-lg hover:bg-tertiary/25" />
+              <SiMinutemailer className="shadow-lg hover:bg-tertiary/25" />
+              <MdEmail className="shadow-lg hover:bg-tertiary/25" />
+              <FaInstagram className="shadow-lg hover:bg-tertiary/25" />
             </div>
             <div className="bg-amber-800/10 shadow-xl py-6 px-16 mb-16 ">
               <p className="text-amber-800 mb-2">WELCOME TO MY WORLD!</p>
@@ -49,11 +49,11 @@ const Banner = () => {
               <p className="text-gray-600">Computer Science Student</p>
               <a
                 href="#About"
-                className=" border-amber-800/10 rounded-full py-2 px-6 inline-block mt-5 font-bold text-gray-700 hover:bg-amber-800/30 shadow-xl"
+                className="cursor-pointer border-amber-800/10 rounded-full py-2 px-6 inline-block mt-5 font-bold text-gray-700 hover:bg-amber-800/30 shadow-xl"
               >
                 About Me
               </a>
-              <a className="  border-amber-800/10 rounded-full py-2 px-6 inline-block mt-5 font-bold text-gray-700 ml-5 hover:bg-amber-800/30 shadow-xl">
+              <a className="cursor-pointer border-amber-800/10 rounded-full py-2 px-6 inline-block mt-5 font-bold text-gray-700 ml-5 hover:bg-amber-800/30 shadow-xl">
                 Contact Me
               </a>
             </div>

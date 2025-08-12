@@ -3,7 +3,8 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-      <nav className="bg-secondary">
+    <header>
+    <nav className="bg-secondary">
         <div className="container mx-auto px-14 py-5">
           <div className="flex justify-between">
             <div className="flex gap-2 items-center gap-3">
@@ -27,8 +28,11 @@ const Header = () => {
               </a>
             </div>
           </div>
+          
         </div>
       </nav>
+    </header>
+      
     </>
   );
 }
