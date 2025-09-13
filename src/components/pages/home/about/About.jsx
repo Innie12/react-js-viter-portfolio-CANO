@@ -13,7 +13,7 @@ const About = () => {
       <section id="About" className="py-5 bg-amber-50">
         <div className="container mx-auto px-20">
           <div>
-            <div className="flex flex-wrap  gap-20 ml-24">
+            <div className="flex flex-wrap gap-20 ml-24">
               <h2 className="text-8xl bg-gradient-to-br from-amber-900 to bg-amber-800/30 text-transparent bg-clip-text mb-2">
                 ABOUT ME:
               </h2>
@@ -77,7 +77,7 @@ const About = () => {
                     </p>
                   </div>
                   <div className="justify-items-center">
-                    <h4 className="text-tertiary font-bold">SECONDARY</h4>
+                    <h4 className="text-tertiary font-bold">SECONDARY ( HS & SHS )</h4>
                     <div>
                       <img
                         className="size-20 mt-6 mb-7"
@@ -105,7 +105,7 @@ const About = () => {
                     </div>
                     <div className="flex justify-between">
                       <p className="bg-primary/5 rounded-full shadow-lg w-fit px-2 text-primary font-bold">
-                        2016 - 2022
+                        2022 - 2026
                       </p>
                     </div>
                     <p className="text-primary font-semibold">
@@ -118,7 +118,7 @@ const About = () => {
                 <GiSkills className="text-4xl text-tertiary" />
                 <h5 className="text-primary font-bold mt-2">SOFT SKILLS</h5>
               </div>
-              <div className="text-primary font-semibold grid md:grid-cols-4">
+              <div className="text-primary font-semibold flex flex-wrap gap-8 ">
                 <div className="flex gap-2 bg-gradient-to-br from-amber-50 to bg-amber-700/50 w-[12rem] h-[4rem] items-center p-2 drop-shadow-lg rounded-lg justify-center">
                   <AiOutlineTeam className="text-4xl text-tertiary"/>
                   <h6>Teamwork</h6>

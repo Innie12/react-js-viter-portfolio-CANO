@@ -17,7 +17,7 @@ const Projects = () => {
               <div className=" flex gap-5">
                 <FaGithub className="text-3xl text-tertiary" />
                 <a
-                  className="underline text-primary"
+                  className="hover:text-tertiary underline text-primary"
                   href="https://github.com/Innie12/react-js-viter-myapp-CANO.git"
                 >
                   GitHub Account

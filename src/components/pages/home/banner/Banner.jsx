@@ -33,10 +33,14 @@ const Banner = () => {
               />
             </div>
             <div className="flex flex-wrap text-2xl gap-5 mb-5 text-amber-800 cursor-pointer">
-              <TiSocialFacebook className="shadow-lg hover:bg-tertiary/25" />
+              <a href="https://www.facebook.com/swennyyyy">
+                <TiSocialFacebook className="shadow-lg hover:bg-tertiary/25" />
+              </a>
               <SiMinutemailer className="shadow-lg hover:bg-tertiary/25" />
               <MdEmail className="shadow-lg hover:bg-tertiary/25" />
-              <FaInstagram className="shadow-lg hover:bg-tertiary/25" />
+              <a href="https://www.instagram.com/swennyyyy/profilecard/?igsh=aW92a3ZqbmhjYjN1">
+                <FaInstagram className="shadow-lg hover:bg-tertiary/25" />
+              </a>
             </div>
             <div className="bg-amber-800/10 shadow-xl py-6 px-16 mb-16 ">
               <p className="text-amber-800 mb-2">WELCOME TO MY WORLD!</p>
